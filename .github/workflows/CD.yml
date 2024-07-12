@@ -40,4 +40,4 @@ jobs:
 
     - name: Deploy
       run: |
-        helm upgrade --install my-release ./hello --set repository.image=karabalta75/python-app1 --set repository.tag=2.0.0
+        helm upgrade --install my-release ./hello --set repository.image=kaizenacademy/python-app1 --set repository.tag=2.0.0
